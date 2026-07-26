@@ -6,7 +6,7 @@
     {% if homepage == false %}
         {% include '_components/header.twig' with { params:{
             image: entry.image.one(),
-            title: entry.title
+            title: entry.pageType == 'links' ? false : entry.title
         }} %}
     {% endif %}
 
