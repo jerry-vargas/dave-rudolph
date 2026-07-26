@@ -2,10 +2,12 @@
   "require": {
     "craftcms/aws-s3": "2.2.3",
     "craftcms/ckeditor": "4.10.1",
-    "craftcms/cms": "5.8.17",
+    "craftcms/cms": "5.8.19",
+    "craftcms/feed-me": "6.11.0",
     "nystudio107/craft-vite": "^5.0",
+    "putyourlightson/craft-sendgrid": "3.0.0",
     "putyourlightson/craft-sprig": "3.7.1",
-    "solspace/craft-freeform": "5.12.3",
+    "solspace/craft-freeform": "5.13.4",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

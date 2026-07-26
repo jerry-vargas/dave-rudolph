@@ -1,4 +1,4 @@
-dateModified: 1761795404
+dateModified: 1763009236
 elementSources:
   craft\elements\Entry:
     -
@@ -76,15 +76,14 @@ elementSources:
         - link
       type: native
 email:
-  fromEmail: contact@daverudolphmusic.com
-  fromName: 'Dave Rudolph'
-  replyToEmail: daverudolphguitar@gmail.com
+  fromEmail: $SYSTEM_EMAIL_ADDRESS
+  fromName: $SENDER_NAME
+  replyToEmail: $REPLY_TO_ADDRESS
   template: null
   transportSettings:
-    password: 'Dajr*2448'
-    timeout: '10'
-    username: daverudolphguitar
-  transportType: craft\mail\transportadapters\Gmail
+    apiKey: $SENDGRID_API_KEY
+    categories: ''
+  transportType: putyourlightson\sendgrid\mail\SendgridAdapter
 fs:
   uploads:
     hasUrls: true
@@ -179,10 +178,14 @@ plugins:
     edition: lite
     enabled: true
     schemaVersion: 1.0.2
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.14.0
   freeform:
     edition: express
     enabled: true
-    schemaVersion: 5.7.0
+    schemaVersion: 5.8.0
     settings:
       alertNotificationRecipients: null
       allowBuilderTemplateCreation: true
@@ -514,6 +517,10 @@ plugins:
       updateSearchIndexes: true
       useQueueForEmailNotifications: false
       useQueueForIntegrations: false
+  sendgrid:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   sprig:
     edition: standard
     enabled: true

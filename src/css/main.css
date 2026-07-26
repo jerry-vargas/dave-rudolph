@@ -43,8 +43,8 @@
     --color-primary: #68a79e;
     --color-secondary: #2b5751;
     --color-gray: #6c757d;
-    --font-russo: "Russo One";
-    --font-xball: "XBall";
+    --font-russo: "Russo One", sans-serif;
+    --font-xball: "XBall", sans-serif;
 }
 /* Light mode (default) */
 body {

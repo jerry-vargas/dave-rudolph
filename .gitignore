@@ -3,6 +3,8 @@
 /vendor
 .DS_Store
 /node_modules
+config/license.key
+DB/*.sql
 .ddev/*
 # Except config.yaml
 !.ddev/config.yaml
