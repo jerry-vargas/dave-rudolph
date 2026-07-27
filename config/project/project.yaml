@@ -116,6 +116,7 @@ meta:
     5e19d471-ef0b-4e95-9548-97c378c4b65d: 'Tour Dates' # Tour Dates
     5fb9f1f8-c038-4593-b349-8cda166cb8fb: City # City
     6b2b62f0-3eb1-45ad-b397-559af7de174b: 'Dave Guitar' # Dave Guitar
+    6fe27fc7-1bdf-46aa-b995-8e716c903c74: medium # medium
     7e048754-9e2b-4fef-a0ec-1afa07efa29b: Pages # Pages
     20cc593a-1deb-4cbb-b161-ee53c5a114d9: Entry # Entry
     66bdc090-1029-4da8-a10f-8e0bc54176bb: spotifyIframes # spotifyIframes
@@ -123,6 +124,7 @@ meta:
     83f1bea5-400c-4373-8b03-cd7de4219b6c: 'Matrix Entry Type' # Matrix Entry Type
     85eff002-8100-42c8-a7a8-4532563dfd23: Navigation # Navigation
     97ddd7ba-c25a-4043-a699-94f190c43cd2: Default # Default
+    307aed6d-1df7-40e2-adaa-e654bef0a367: small # small
     429c85c0-0ce1-4713-a254-7b8a2e585e95: 'Spotify Album Block' # Spotify Album Block
     458ab821-4880-4299-8232-f99733310016: date # date
     502b621a-4cc7-4a26-a910-042f30dca048: Home # Home
@@ -135,6 +137,7 @@ meta:
     885183e7-a46e-417d-888c-fca4f7e1734d: Uploads # Uploads
     17303915-9872-43ed-9684-e3ae9e8d6099: 'Open In new Tab' # Open In new Tab
     56361854-6cef-42f0-b788-03399c9f683b: 'Dave Guitar' # Dave Guitar
+    b2fdbf03-b42f-4721-ba74-7113f1dfdcac: large # large
     b43bae05-d6b6-4b8a-84bc-f01097e47529: Navigation # Navigation
     b242a145-18ec-45dd-a31a-28e9e48279c0: TOUR # TOUR
     b6502537-1c47-451c-8402-2f8dcde9a941: spotifyIframe # spotifyIframe
