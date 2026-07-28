@@ -1,4 +1,4 @@
-dateModified: 1763009236
+dateModified: 1785207717
 elementSources:
   craft\elements\Entry:
     -
@@ -132,6 +132,7 @@ meta:
     0886b236-4a38-40bd-abfa-21fdee1352d7: State # State
     3304aae1-f09c-4687-bbe6-e0903dad9f0d: 'Nav Item' # Nav Item
     8972e6e4-7db5-4a0a-85b9-11be3f170a55: 'Custom Content' # Custom Content
+    23357a18-1b45-4c3f-ae2d-5d8ca10b0acb: SEO # SEO
     024543db-feed-428a-922b-5c42d8374aaa: 'Album CTA' # Album CTA
     510624a0-5eb7-469d-80ad-f0fd8770b0c6: Image # Image
     885183e7-a46e-417d-888c-fca4f7e1734d: Uploads # Uploads
@@ -141,6 +142,7 @@ meta:
     b43bae05-d6b6-4b8a-84bc-f01097e47529: Navigation # Navigation
     b242a145-18ec-45dd-a31a-28e9e48279c0: TOUR # TOUR
     b6502537-1c47-451c-8402-2f8dcde9a941: spotifyIframe # spotifyIframe
+    be324a7c-edca-42e1-b297-197ec8d72d3b: 'SEO Entry' # SEO Entry
     c2111dd9-d621-4db5-9121-04eba429d67a: Home # Home
     cd2fbe89-ae24-4f97-a4e1-77aaf39f0a88: 'Footer Link' # Footer Link
     d2d8c823-93e6-4574-a238-533954b4b8b9: Default # Default

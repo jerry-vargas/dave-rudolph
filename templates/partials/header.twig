@@ -35,6 +35,21 @@
     {# Meta Tags partial #}
     {% include 'partials/_metaTags.twig' %}
 
+    {# templates/_layout.twig, inside <head> #}
+    <script type="application/ld+json">
+        {{ {
+            "@context": "https://schema.org",
+            "@type": "MusicGroup",
+            "name": "Dave Rudolph",
+            "url": siteUrl,
+            "sameAs": [
+                "https://www.facebook.com/DaveRudolphMusic",
+                "https://www.instagram.com/daverudolphmusic",
+                "https://open.spotify.com/artist/4Ait3rFDQIoOA1Z5JrEBsp"
+            ]
+        } | json_encode | raw }}
+
+    </script>
     <script>
       // Apply dark mode immediately - no flash!
       (function() {
@@ -45,7 +60,6 @@
         }
       })();
     </script>
-
     {{ craft.vite.script("src/app.js", false) }}
 </head>
 <body class="relative">

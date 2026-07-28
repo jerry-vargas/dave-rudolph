@@ -29,6 +29,31 @@
         <table class="w-full">
             <tbody>
             {% for entry in entries %}
+                <script type="application/ld+json">
+                    {{ {
+                        "@context": "https://schema.org",
+                        "@type": "MusicEvent",
+                        "name": entry.title,
+                        "startDate": entry.date|date('Y-m-d') ~ 'T' ~ entry.time|date('H:i:s') ~ entry.date|date('P'),
+                        "eventStatus": "https://schema.org/EventScheduled",
+                        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                        "location": {
+                            "@type": "Place",
+                            "name": entry.title,
+                            "address": {
+                                "@type": "PostalAddress",
+                                "addressLocality": entry.city,
+                                "addressRegion": entry.state,
+                                "addressCountry": "US"
+                            }
+                        },
+                        "performer": {
+                            "@type": "MusicGroup",
+                            "name": "Dave Rudolph"
+                        },
+                        "url": entry.infoUrl
+                    } | json_encode | raw }}
+                </script>
                 <tr class="{{ trClass }}">
                     <td class="{{ tdClass }}">
                         <span class="{{ spanClass }}">{{ entry.date|date('medium') }}</span>
