@@ -1,0 +1,70 @@
+color: null
+description: null
+fieldLayouts:
+  6dc12007-2586-4164-ac3f-f43d8c53ffd6:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-07-28T02:55:30+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 63f62414-d5be-434f-a8be-7f214aae0777
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-28T03:01:57+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 510624a0-5eb7-469d-80ad-f0fd8770b0c6 # Image
+            handle: defaultSeoImage
+            includeInCards: false
+            instructions: null
+            label: 'Default SEO Image'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a6581efb-4f8a-4d6d-b363-e42c56897a57
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 36dd9f3d-2b91-414d-b9db-a4c30b332e8a
+        userCondition: null
+handle: seoEntry
+hasTitleField: true
+icon: null
+name: 'SEO Entry'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

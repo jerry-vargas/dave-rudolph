@@ -1,0 +1,21 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: be324a7c-edca-42e1-b297-197ec8d72d3b # SEO Entry
+handle: seo
+maxAuthors: 1
+name: SEO
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  56361854-6cef-42f0-b788-03399c9f683b: # Dave Guitar
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single
