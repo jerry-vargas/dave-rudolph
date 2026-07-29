@@ -1,5 +1,5 @@
 color: null
-description: null
+description: 'keep it under ~160 characters for SERP display'
 fieldLayouts:
   6dc12007-2586-4164-ac3f-f43d8c53ffd6:
     cardThumbAlignment: end
@@ -44,13 +44,30 @@ fieldLayouts:
             fieldUid: 510624a0-5eb7-469d-80ad-f0fd8770b0c6 # Image
             handle: defaultSeoImage
             includeInCards: false
-            instructions: null
+            instructions: 'This image needs to be either a .png, .jpeg, .jpg or .webp format so it can be correctly displayed.'
             label: 'Default SEO Image'
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: a6581efb-4f8a-4d6d-b363-e42c56897a57
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-29T03:22:58+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 4b7b303f-fd4f-4f11-b14b-60e2b92c9d18 # Plain text
+            handle: description
+            includeInCards: false
+            instructions: null
+            label: Description
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9c815b54-c097-4b44-8943-b383ecdd0088
             userCondition: null
             warning: null
             width: 100

@@ -3,11 +3,8 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-          content="Discover the melodies of Dave Rudolph, a talented guitarist and singer/songwriter from Akron, Ohio, now based in Nashville, TN. Experience his captivating performances on Broadway in Nashville and at touring dates across the country.">
+    {# Meta Tags partial #}
+    {% include 'partials/_metaTags.twig' %}
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0W6WHPF89H"></script>
@@ -31,9 +28,6 @@
 {#    <link rel="manifest" href="/site.webmanifest">#}
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
-    {# Meta Tags partial #}
-    {% include 'partials/_metaTags.twig' %}
 
     {# templates/_layout.twig, inside <head> #}
     <script type="application/ld+json">
