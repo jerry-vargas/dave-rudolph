@@ -1,18 +1,27 @@
+{% set seoImage = seo.defaultSeoImage.one() ??? 'https://metatags.io/images/meta-tags.png' %}
+{% set titleContent = seo.title ?? entry.title ?? siteName %}
+{% set description = seo.description ??? 'Discover the melodies of Dave Rudolph, a talented guitarist and singer/songwriter from Akron, Ohio, now based in Nashville, TN. Experience his captivating performances on Broadway in Nashville and at touring dates across the country.' %}
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="{{ description }}">
+
 <!-- Primary Meta Tags -->
-<title>Meta Tags — Preview, Edit and Generate</title>
-<meta name="title" content="Meta Tags — Preview, Edit and Generate" />
-<meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
+<title>{{ seo.title }} | {{ siteName }}</title>
+<meta name="title" content="{{ titleContent }}" />
+<meta name="description" content="{{ description }}" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ siteUrl }}" />
-<meta property="og:title" content="Meta Tags — Preview, Edit and Generate" />
-<meta property="og:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
-<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+<meta property="og:title" content="{{ titleContent }}" />
+<meta property="og:description" content="{{ description }}" />
+<meta property="og:image" content="{{ seoImage.getUrl() ?? 'https://metatags.io/images/meta-tags.png' }}" />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="{{ siteUrl }}" />
-<meta property="twitter:title" content="Meta Tags — Preview, Edit and Generate" />
-<meta property="twitter:description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
-<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+<meta property="twitter:title" content="{{ titleContent }}" />
+<meta property="twitter:description" content="{{ description }}" />
+<meta property="twitter:image" content="{{ seoImage.getUrl() ?? 'https://metatags.io/images/meta-tags.png' }}" />
