@@ -1,6 +1,6 @@
-{% set seoImage = seo.defaultSeoImage.one() ??? 'https://metatags.io/images/meta-tags.png' %}
+{% set seoImage = seo.defaultSeoImage.one() ?? 'https://metatags.io/images/meta-tags.png' %}
 {% set titleContent = seo.title ?? entry.title ?? siteName %}
-{% set description = seo.description ??? 'Discover the melodies of Dave Rudolph, a talented guitarist and singer/songwriter from Akron, Ohio, now based in Nashville, TN. Experience his captivating performances on Broadway in Nashville and at touring dates across the country.' %}
+{% set description = seo.description ?? 'Discover the melodies of Dave Rudolph, a talented guitarist and singer/songwriter from Akron, Ohio, now based in Nashville, TN. Experience his captivating performances on Broadway in Nashville and at touring dates across the country.' %}
 
 <!-- Required meta tags -->
 <meta charset="utf-8">
