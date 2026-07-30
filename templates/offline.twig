@@ -1,0 +1,26 @@
+{% extends '_layout.twig' %}
+{% block content %}
+
+    <main class="container mx-auto flex flex-col items-center justify-center min-h-[60vh] px-4 py-16 text-center">
+        <p class="font-xball text-primary text-[7rem] sm:text-[10rem] leading-none text-shadow-2xs select-none">Soon</p>
+        <h1 class="font-russo text-2xl sm:text-4xl md:text-5xl mt-4 mb-6">Be Right Back</h1>
+        <p class="font-russo text-gray-500 text-base sm:text-lg md:text-xl max-w-lg mb-10">
+            The site is currently undergoing some maintenance. Check back shortly — good things are coming.
+        </p>
+        <div class="flex gap-4 flex-wrap justify-center">
+            <a href="https://www.instagram.com/daverudolphmusic"
+               target="_blank"
+               rel="noopener"
+               class="font-russo text-primary border-2 border-primary rounded-full px-8 py-3 text-lg hover:text-secondary hover:border-secondary transform hover:scale-105 transition duration-300 ease-out">
+                Instagram
+            </a>
+            <a href="https://www.facebook.com/DaveRudolphMusic"
+               target="_blank"
+               rel="noopener"
+               class="font-russo text-primary border-2 border-primary rounded-full px-8 py-3 text-lg hover:text-secondary hover:border-secondary transform hover:scale-105 transition duration-300 ease-out">
+                Facebook
+            </a>
+        </div>
+    </main>
+
+{% endblock %}

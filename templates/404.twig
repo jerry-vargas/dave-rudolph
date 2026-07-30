@@ -1,0 +1,16 @@
+{% extends '_layout.twig' %}
+{% block content %}
+
+    <main class="container mx-auto flex flex-col items-center justify-center min-h-[60vh] px-4 py-16 text-center">
+        <p class="font-xball text-primary leading-none text-shadow-2xs select-none">404</p>
+        <h1 class="font-russo text-2xl sm:text-4xl md:text-5xl mt-4 mb-6">Page Not Found</h1>
+        <p class="font-russo text-gray-500 text-base sm:text-lg md:text-xl max-w-lg mb-10">
+            Looks like this page took an unplanned detour. It may have been moved, removed, or never existed in the first place.
+        </p>
+        <a href="/"
+           class="font-russo text-primary border-2 border-primary rounded-full px-12 py-3 text-lg hover:text-secondary hover:border-secondary transform hover:scale-105 transition duration-300 ease-out">
+            Back to Home
+        </a>
+    </main>
+
+{% endblock %}
