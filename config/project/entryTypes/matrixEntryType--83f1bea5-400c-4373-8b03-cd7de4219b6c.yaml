@@ -71,6 +71,23 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 50
+          -
+            dateAdded: '2026-07-31T03:41:39+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 75d85378-d455-4ff4-bda0-9a51e95d30f9 # Lightswitch
+            handle: hideDaveRudolphInNav
+            includeInCards: false
+            instructions: null
+            label: "Hide 'Dave Rudolph' in Nav"
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 340a610a-53a1-484e-80bd-4f62e20b34f8
+            userCondition: null
+            warning: null
+            width: 25
         name: Content
         uid: b98c979c-4ea6-4811-aa0f-0533c3167fbc
         userCondition: null
